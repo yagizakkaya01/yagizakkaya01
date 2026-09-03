@@ -21,10 +21,8 @@
 
 ```yaml
 name:      Yağız Akkaya
-role:      Computer Engineering Student @ METU Northern Cyprus Campus
+role:      Computer Engineering Student @ METU 
 focus:     [ Computer Vision, Edge AI, Retrieval-Augmented Generation ]
-currently: Building production-grade CV pipelines & LLM systems
-motto:     "Ship it to the edge, then make it fast."
 ```
 
 I build systems that **see** and systems that **read** — computer vision models that run on constrained edge hardware, and retrieval pipelines that let people ask questions of documents they'd never have time to open.
@@ -111,22 +109,12 @@ Named after the roadside inns where the arrivals and departures of travellers we
 <tr>
 <td width="50%" valign="top">
 
-### ⚖️ Hammurabi
-**RAG legal assistant for Turkish law**
 
-Retrieval that respects the fact that legal text has *structure* — articles, clauses, cross-references — and that flattening it into 512-token chunks throws away the map.
-
-- **Structure-Aware Chunking**
-- **Contextual Retrieval**
-- **Section-Aware HyDE**
-- Shipped with a presentation built for a non-technical legal audience
-
-`RAG` `NLP` `Turkish` `Information Retrieval`
 
 </td>
 <td width="50%" valign="top">
 
-### 🏭 CILEKAI
+###  CILEKAI
 **Enterprise RAG for 500+ factory employees**
 
 Built during an AI Engineering internship at Çilek Kids Room: a production document assistant that let the whole plant query internal documentation in plain Turkish.
@@ -166,6 +154,19 @@ Built during an AI Engineering internship at Çilek Kids Room: a production docu
                  Industrial defect detection & edge-deployed inventory
                  verification. Long-tail, few-shot defect classes;
                  single-label data vs. multi-defect production reality.
+
+2026 (Apr-Jul)   ⚖️ Hammurabi
+                  **RAG legal assistant for Turkish law**
+                  REngineered a high-throughput legal document ingestion pipeline, synchronizing millions of judicial decisions into Qdrant and Meilisearch.
+
+Developed a concurrent search sync engine using PostgreSQL row-level locking for collision-free parallel worker execution.
+
+Boosted embedding speeds by ~30% and optimized VRAM usage by designing a shared OOM-safe cascading encode algorithm (full → half → quarter → one-by-one)
+
+Implemented fault-tolerant recovery mechanisms to prevent CPU spinning and manage document queues during target database outages.
+Integrated live pipeline observability via Django WebSockets for real-time operation_id tracking.
+
+Stack: Python, Django ORM, PostgreSQL, Qdrant, Meilisearch, SentenceTransformers, CUDA, PyTorch.
 
 2026 (Jan–Feb)   AI Engineering Intern  ·  Çilek Kids Room
                  Built CILEKAI — a production RAG assistant serving
