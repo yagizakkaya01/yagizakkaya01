@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/31775762/README.md)
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ya%C4%9F%C4%B1z%20Akkaya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Computer%20Engineering%20%C2%B7%20Applied%20AI%20%C2%B7%20Edge%20Vision&descAlignY=55&descSize=18" width="100%" />
