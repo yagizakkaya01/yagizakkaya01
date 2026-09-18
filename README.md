@@ -166,7 +166,7 @@ Production-grade RAG system built during AI Engineering internship at Çilek Kid
 ## 💼 Experience
 
 ### 🏢 **Heysem AI** · *Computer Vision Intern*
-`Sep 2026` · *On-site / Hybrid*
+`Sep 2026` · *On-site*
 
 - **[Kervansaray](https://github.com/yagizakkaya01/kervansaray) — Hotel Parking License-Plate Recognition & Query System:** Built an end-to-end data-management system for fixed-camera hotel parking entry/exit control, from synthetic data generation to natural-language querying.
   - *Backend & Data Pipeline:* Engineered a Flask + PostgreSQL/pgvector backend (Docker, SQLAlchemy, Alembic) with a deterministic synthetic data generator, plate canonicalization, and fuzzy matching.
@@ -181,7 +181,7 @@ Production-grade RAG system built during AI Engineering internship at Çilek Kid
 
 ---
 
-### ⚖️ **Hammurabi AI** · *Backend Engineer (Remote — Full-Time Student)*
+### ⚖️ **Hammurabi AI** · *Backend Engineer (Remote — Full-Time)*
 `Apr 2026 – Jul 2026` · *Remote*
 
 - **Vector Ingestion & Search Sync Pipeline:** Engineered a high-throughput legal document ingestion and indexing pipeline to synchronize millions of judicial decisions into Qdrant and Meilisearch databases.
