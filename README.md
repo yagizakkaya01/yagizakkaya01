@@ -102,7 +102,7 @@ A workspace inventory-verification system for defense-industry use cases such as
 
 End-to-end data-management system for fixed-camera hotel parking entry/exit control, from synthetic data generation to natural-language querying.
 
-- **Backend & Data Pipeline:** Engineered a Flask + PostgreSQL/pgvector backend (Docker, SQLAlchemy, Alembic) with a deterministic synthetic data generator, plate canonicalization, and fuzzy matching
+- **Backend & Data Pipeline:** Engineered a Flask + PostgreSQL backend (Docker) with a deterministic synthetic data generator, plate canonicalization, and fuzzy matching
 - **LLM Query Layer:** Multi-provider fallback chain (Groq / Gemini / OpenAI) with tool calling for Turkish natural-language operational queries
 - **Production Readiness:** Prometheus observability, structured logging, and an interactive public demo with cooldown-protected admin endpoints
 
