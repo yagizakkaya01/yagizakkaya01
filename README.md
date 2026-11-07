@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ya%C4%9F%C4%B1z%20Akkaya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Computer%20Engineering%20%C2%B7%20Applied%20AI%20%C2%B7%20Edge%20Vision&descAlignY=55&descSize=18" width="100%" />
 
 <a href="https://github.com/yagizakkaya01">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=650&lines=Computer+Vision+on+the+edge.;Retrieval-Augmented+Generation+in+production.;From+YOLO+on+a+Jetson+to+RAG+for+500%2B+users." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=650&lines=LLM+agents+that+call+tools%2C+not+guess.;Computer+Vision+on+the+edge.;Every+answer+checked+against+an+eval+set.;From+YOLO+on+a+Jetson+to+RAG+for+500%2B+users." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -22,12 +22,12 @@
 ```yaml
 name:      Yağız Akkaya
 role:      Computer Engineering Student @ METU NCC
-focus:     [ Computer Vision, Edge AI, Retrieval-Augmented Generation, High-Throughput Backends ]
+focus:     [ LLM Tool Calling & Agents, Retrieval-Augmented Generation, Computer Vision, Edge AI, Backends ]
 ```
 
-I build systems that **see** and systems that **read** — computer vision models that run on constrained edge hardware, and retrieval pipelines that let people ask questions of documents they'd never have time to open.
+I build systems that **see** and systems that **read** — computer vision models that run on constrained edge hardware, and LLM applications that let people ask questions of documents and databases they'd never have time to open. Lately that means **tool-calling agents**: the model picks a typed tool, the database or the document does the real work, and code checks the answer before anyone sees it.
 
-Most of my work lives at the awkward, interesting seam between a model that works in a notebook and a system that survives real production environments: single-label datasets meeting multi-defect reality, detector jitter breaking naïve logic, GPU memory limits under concurrent ingestion, and high-throughput vector indexing.
+Most of my work lives at the awkward, interesting seam between a model that works in a notebook and a system that survives real production environments: single-label datasets meeting multi-defect reality, detector jitter breaking naïve logic, GPU memory limits under concurrent ingestion, and high-throughput vector indexing. I measure what I ship with gold-set evaluations (held-out splits, honest failure counts) instead of quoting the best demo run.
 
 <br/>
 
@@ -52,10 +52,14 @@ Most of my work lives at the awkward, interesting seam between a model that work
 ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![OAK-D](https://img.shields.io/badge/Luxonis%20OAK--D-FF6B00?style=flat-square&logo=raspberrypi&logoColor=white)
+![Anomaly Detection](https://img.shields.io/badge/PatchCore%20%2F%20WinCLIP-0B5394?style=flat-square&logo=pytorch&logoColor=white)
 
 **LLM, Retrieval & Search**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Tool Calling](https://img.shields.io/badge/LLM%20Tool%20Calling-6E40C9?style=flat-square&logo=openai&logoColor=white)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA%20NIM%20(Gemma)-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-00599C?style=flat-square&logo=meta&logoColor=white)
 ![Meilisearch](https://img.shields.io/badge/Meilisearch-FF4088?style=flat-square&logo=meilisearch&logoColor=white)
@@ -64,12 +68,17 @@ Most of my work lives at the awkward, interesting seam between a model that work
 
 **Backend, Data & Infrastructure**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2B%20pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Django](https://img.shields.io/badge/Django%20ORM-092E20?style=flat-square&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Azure Blob](https://img.shields.io/badge/Azure%20Blob%20(Azurite)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Caddy](https://img.shields.io/badge/Caddy-22B573?style=flat-square&logo=caddy&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
@@ -83,30 +92,30 @@ Most of my work lives at the awkward, interesting seam between a model that work
 <tr>
 <td width="50%" valign="top">
 
-### 👁️ [inventory-verification](https://github.com/yagizakkaya01/inventory-verification)
-**Fixed-camera object detection & state control**
+### 📄 [leagle-case-study](https://github.com/yagizakkaya01/leagle-case-study) · [live demo](https://leagle.yagizakkaya.com.tr)
+**Document chat with page-level citations that code verifies**
 
-A workspace inventory-verification system for defense-industry use cases such as ammunition tracking and assembly-line control, answering: *is the workspace in the valid state?*
+Upload a PDF, ask questions in a conversation, get an answer with the **page number** and a **quote** from the document.
 
-- **Detection & Logic:** Fine-tuned a **YOLO11** model paired with a **finite state machine** and temporal smoothing to verify scene state while filtering out detector jitter
-- **Bootstrapped Labeling:** Hand-labeled 50 of 452 frames, then trained a model to auto-label the rest, cutting labeling time significantly
-- **Edge Deployment:** Deployed to **NVIDIA Jetson** with **TensorRT INT8** quantization for real-time edge inference using a **Luxonis OAK-D** camera
+- **Tool calling instead of a fixed retrieval step:** the model reads the document through typed tools, decides when it has enough, and returns a structured answer that code checks — the quote must appear word for word on the cited page
+- **Full stack:** FastAPI + LangChain backend, React UI with a "Show evidence" view that opens the PDF page with the quote highlighted, PostgreSQL chat history, Azure Blob storage (Azurite), live tool steps over SSE
+- **Measured, not claimed:** 29/30 on a 30-question gold set (all answers correct, no citations on the 5 unanswerable questions, a prompt injection in the document ignored), plus a harder set built from reported legal-RAG failure modes; pytest + ruff in GitHub Actions
 
-`Python` `YOLO11` `OpenCV` `TensorRT` `NVIDIA Jetson` `Luxonis OAK-D`
+`Python` `FastAPI` `LangChain` `React` `PostgreSQL` `Azure Blob` `NVIDIA NIM` `Docker Compose`
 
 </td>
 <td width="50%" valign="top">
 
-### 🕌 [kervansaray](https://github.com/yagizakkaya01/kervansaray)
-**Hotel parking ALPR & natural-language query system**
+### 🕌 Kervansaray · [live demo](https://kervansaray.yagizakkaya.com.tr)
+**Car-park entry/exit intelligence with a natural-language query layer** *(private repo)*
 
-End-to-end data-management system for fixed-camera hotel parking entry/exit control, from synthetic data generation to natural-language querying.
+Event store, session reconciliation and Turkish natural-language querying for fixed-camera license-plate data, built during my Heysem AI internship.
 
-- **Backend & Data Pipeline:** Engineered a Flask + PostgreSQL backend (Docker) with a deterministic synthetic data generator, plate canonicalization, and fuzzy matching
-- **LLM Query Layer:** Multi-provider fallback chain (Groq / Gemini / OpenAI) with tool calling for Turkish natural-language operational queries
-- **Production Readiness:** Prometheus observability, structured logging, and an interactive public demo with cooldown-protected admin endpoints
+- **Event pipeline:** idempotent ingest, plate canonicalization, bounded fuzzy matching and entry/exit session reconciliation on PostgreSQL 16, fed by a deterministic synthetic data generator with known ground truth
+- **LLM layer:** tool calling over typed SQL tools (NVIDIA NIM Gemma 4 31B, Gemini Flash fallback) — SQL does all the counting, the model never guesses a number; deterministic date parsing and out-of-scope refusal
+- **Evaluation:** 209-question gold set (56 dev + 153 held-out) scored by an independent Python oracle with Wilson 95% intervals; real-time rule-based alerts over SSE, Prometheus metrics
 
-`Python` `Flask` `PostgreSQL` `pgvector` `Docker` `Groq/Gemini/OpenAI`
+`Python` `Flask` `PostgreSQL` `SQLAlchemy` `Alembic` `NVIDIA NIM` `Gemini` `Docker` `Caddy`
 
 </td>
 </tr>
@@ -114,28 +123,57 @@ End-to-end data-management system for fixed-camera hotel parking entry/exit cont
 <td width="50%" valign="top">
 
 ### 🛰️ [uav-cuas-datasets](https://github.com/yagizakkaya01/uav-cuas-datasets)
-**Spatial-semantic UAV/C-UAS threat mapping & C2 engine**
+**Senior design: UAV/C-UAS threat map & decision-support system**
 
-Evidence-based catalog and 5-layer architecture for a tactical decision-support system that maps drone threats in real-time and replans survivable paths.
+Evidence-based catalog and 5-layer architecture for a tactical decision-support system that maps drone threats in real time and replans survivable paths (METU NCC, ESC 491/492, CNG + EEE).
 
-- **Evidence-Based Grounding:** Curated catalog of **35+ real, independently verified data sources** (Copernicus DEM, OpenSky Network, DroneRF, ACLED, DoD/NATO doctrine)
-- **5-Layer C2 Engine:** Geospatial & sensor ingestion, semantic threat knowledge base (doctrine/TTP RAG), grid/graph algorithms (A\*, terrain masking), radar/RF sensor fusion, and MIL-STD-2525 tactical symbology
-- **Threat Surface & Route Replanning:** Mathematical models for multi-threat cost surfaces and dynamic route replanning under active drone threats
+- **Evidence-based grounding:** **35+ real, independently verified data sources** (Copernicus DEM, OpenSky Network, DroneRF, ACLED, DoD/NATO doctrine), each with its license and access status
+- **5-layer C2 engine:** geospatial & sensor ingestion, doctrine/TTP knowledge base for RAG-based threat reasoning, grid/graph algorithms (A\*, terrain masking), radar/RF sensor fusion, and MIL-STD-2525 symbology
+- **Detect → propagate risk → replan:** multi-threat cost surfaces and dynamic route replanning under active drone threats
 
 `Defense & C-UAS` `Path Planning` `Sensor Fusion` `MIL-STD-2525` `RAG`
 
 </td>
 <td width="50%" valign="top">
 
-### 🍓 CILEKAI
+### 👁️ [inventory-verification](https://github.com/yagizakkaya01/inventory-verification)
+**Fixed-camera object detection & state control on the edge**
+
+A workspace inventory-verification system for defense-industry use cases such as ammunition tracking and assembly-line control, answering: *is the workspace in the valid state?*
+
+- **Detection & logic:** fine-tuned **YOLO11** paired with a **finite state machine** and temporal smoothing to verify scene state while filtering out detector jitter
+- **Bootstrapped labeling:** hand-labeled 50 of 452 frames, then trained a model to auto-label the rest
+- **Edge deployment:** **NVIDIA Jetson** with **TensorRT INT8** quantization for real-time inference on a **Luxonis OAK-D** camera
+
+`Python` `YOLO11` `OpenCV` `TensorRT` `NVIDIA Jetson` `Luxonis OAK-D`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 WISCRapor
+**Desktop report generator for WISC-IV assessments** *(private repo)*
+
+A Windows app that lets a psychologist turn a child's WISC-IV scores and observations into a finished Word report in minutes.
+
+- **Report engine:** fills an institution's `.docx` template with logos, scores and an auto-generated summary; Turkish vowel harmony handled for name suffixes (Elif'in, Ömer'e)
+- **Safe input:** range checks for subtest (1–19) and composite (40–160) scores, date and age-range validation, draft recovery after a crash
+- **Archive & search:** SQLite archive with accent-insensitive Turkish search, filters by score level, institution and date; one-file backup; ships as a one-click installer, all data stays on the machine
+
+`Python` `CustomTkinter` `python-docx` `SQLite` `PyInstaller` `Inno Setup`
+
+</td>
+<td width="50%" valign="top">
+
+### 🍓 CilekAI
 **Enterprise RAG document assistant for 500+ employees**
 
-Production-grade RAG system built during AI Engineering internship at Çilek Kids Room, enabling factory personnel to query technical docs, manuals, and spreadsheets with inline citations.
+Production RAG system built during my AI Engineering internship at Çilek Kids Room, letting factory staff query technical docs, manuals and spreadsheets with inline citations.
 
-- **Multi-LLM Orchestration:** Integrated 5 LLM providers (Groq Llama 3.3, Google Gemini, GPT-4o, local Ollama) behind an automatic fallback chain for near-100% uptime
-- **4-Stage Hybrid Search:** FAISS dense + BM25 keyword matching with RRF score merging, Qwen3-Reranker cross-encoder, and Turkish morphology (accuracy boosted from 0.15 to 0.95)
-- **Dual Vector-Store & Caching:** Server-side Qdrant + in-process FAISS with incremental indexing; semantic caching achieved <10ms FAQ latency and reduced API costs by ~30%
-- **Enterprise Security:** 5-layer Clean Architecture with department-based RBAC, Prometheus metrics, and Docker Compose deployment
+- **Multi-LLM orchestration:** 5 LLM providers (Groq Llama 3.3, Google Gemini, GPT-4o, local Ollama) behind an automatic fallback chain
+- **4-stage hybrid search:** FAISS dense + BM25 with RRF merging, Qwen3-Reranker cross-encoder and Turkish morphology (accuracy 0.15 → 0.95)
+- **Caching & security:** Qdrant + FAISS with incremental indexing, semantic cache for <10ms FAQ answers (~30% lower API cost), department-based RBAC, Prometheus, Docker Compose
 
 `Python` `Docker Compose` `Qdrant` `FAISS` `Ollama` `Qwen3` `BM25`
 
@@ -150,6 +188,7 @@ Production-grade RAG system built during AI Engineering internship at Çilek Kid
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**tattoo-stencil-maker**](https://github.com/yagizakkaya01/tattoo-stencil-maker) | Turns any photo into a printable tattoo stencil: live OpenCV tuning (blur, Canny, line thickness), stencil and colour modes, true-to-scale A4 PDF export at 300 DPI | `Python` `OpenCV` `Tkinter` |
 | **Collapse/Blast Match-3 Engine** | High-performance Unity tile-matching engine featuring recursive Flood-Fill/BFS cluster detection ($O(M \times N)$), deterministic Smart Shuffle deadlock resolution, physics-based grid reflow, and object pooling | `Unity` `C#` `Algorithms` |
 | **TEKNOFEST 2025 "CENGIZ"** | Unmanned coaxial helicopter designed for disaster-area connectivity and marine monitoring; led rotor configuration analysis and vehicle pre-sizing (**Ranked 5th in Türkiye**, 75.3 pts) | `Aerospace` `UAV Design` `Systems Engineering` |
 | **TEKNOFEST 2024 Multipurpose Helicopter** | Modular helicopter design (SAR, Commercial, VIP variants) with a 6-person team (**Ranked 4th in Türkiye**, 78 pts) | `Aeronautics` `Modular Architecture` |
@@ -168,16 +207,17 @@ Production-grade RAG system built during AI Engineering internship at Çilek Kid
 ### 🏢 **Heysem AI** · *Computer Vision Intern*
 `Sep 2026` · *On-site*
 
-- **[Kervansaray](https://github.com/yagizakkaya01/kervansaray) — Hotel Parking License-Plate Recognition & Query System:** Built an end-to-end data-management system for fixed-camera hotel parking entry/exit control, from synthetic data generation to natural-language querying.
-  - *Backend & Data Pipeline:* Engineered a Flask + PostgreSQL/pgvector backend (Docker, SQLAlchemy, Alembic) with a deterministic synthetic data generator, plate canonicalization, and fuzzy matching.
-  - *LLM Query Layer:* Integrated a Groq/Gemini/OpenAI fallback chain with tool calling for Turkish natural-language queries.
-  - *Production Readiness:* Added Prometheus observability, structured logging, and an interactive public demo with cooldown-protected admin endpoints.
+- **Kervansaray — Hotel Parking License-Plate Recognition & Query System:** Built an end-to-end data-management system for fixed-camera hotel parking entry/exit control, from synthetic data generation to natural-language querying.
+  - *Backend & Data Pipeline:* Engineered a Flask + PostgreSQL 16 event store (Docker, SQLAlchemy, Alembic) with idempotent ingest, plate canonicalization, bounded fuzzy matching, entry/exit session reconciliation, and a deterministic synthetic data generator.
+  - *LLM Query Layer:* Turkish natural-language queries answered through tool calling over typed SQL tools (NVIDIA NIM Gemma 4 31B, Gemini Flash fallback); the database does all counting, the model only picks the tool and phrases the result.
+  - *Evaluation:* Built a 209-question gold set (56 dev + 153 held-out) scored against an independent Python oracle with Wilson 95% confidence intervals; a patch-ablation study showed the model no longer needed the old deterministic fixes (52/56 → 53/56 on the dev set without them).
+  - *Production Readiness:* Deterministic rule engine with Server-Sent Events alerts, Prometheus observability, structured logging, and a live public demo at [kervansaray.yagizakkaya.com.tr](https://kervansaray.yagizakkaya.com.tr).
 - **[Inventory Verification](https://github.com/yagizakkaya01/inventory-verification) — Fixed-Camera Object Detection & State Control:** Developed a workspace inventory-verification system for defense-industry use cases such as ammunition tracking and assembly-line control.
   - *Detection & Logic:* Fine-tuned a YOLO11 model paired with a finite state machine to verify scene state while filtering out detector jitter.
   - *Data Labeling:* Hand-labeled 50 of 452 frames, then bootstrapped a model to auto-label the rest, cutting labeling time significantly.
   - *Edge Deployment:* Deployed to NVIDIA Jetson with TensorRT INT8 quantization for real-time inference using a Luxonis OAK-D camera.
-- **Research & Web:** Prototyped a hybrid anomaly-detection pipeline (PatchCore + WinCLIP) for aircraft-part defect classification, and deployed a personal portfolio site ([yagizakkaya.com.tr](https://yagizakkaya.com.tr)) with Caddy reverse-proxy routing and visitor analytics.
-- **Technologies:** `Python` `Flask` `PostgreSQL` `pgvector` `YOLO11` `OpenCV` `NVIDIA Jetson` `TensorRT` `Luxonis OAK-D` `Docker` `Groq` `Gemini` `OpenAI`
+- **Research & Web:** Prototyped **flawscope**, a two-stage hybrid defect-detection pipeline (PatchCore/PaDiM anomaly detection + CNN and WinCLIP branches fused with RRF) for aircraft-engine part metallography across 12 defect types, and deployed a personal portfolio site ([yagizakkaya.com.tr](https://yagizakkaya.com.tr)) with Caddy reverse-proxy routing and visitor analytics.
+- **Technologies:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `NVIDIA NIM` `Gemini` `YOLO11` `OpenCV` `NVIDIA Jetson` `TensorRT` `Luxonis OAK-D` `PatchCore` `CLIP` `Docker` `Caddy`
 
 ---
 
@@ -211,7 +251,8 @@ Production-grade RAG system built during AI Engineering internship at Çilek Kid
 **Middle East Technical University, NCC** — *Bachelor of Science in Computer Engineering*  
 `2021 – Present`
 - **Relevant Coursework:** Algorithm Analysis, Database Management and File Structures, C Programming, Data Structures, Python Programming, Linux Basics, Logic Design, Discrete Computational Structures.
-- **Engineering Competitions:**
+- **Projects & Competitions:**
+  - *Senior Design (ESC 491/492, CNG + EEE):* UAV/C-UAS threat map and decision-support system — see [uav-cuas-datasets](https://github.com/yagizakkaya01/uav-cuas-datasets).
   - *TEKNOFEST 2025 Helicopter Design Competition:* Unmanned coaxial helicopter "CENGIZ" (Graded **75.3**, Ranked **5th place in Türkiye**).
   - *TEKNOFEST 2024 Helicopter Design Competition:* Modular multipurpose helicopter (Graded **78**, Ranked **4th place in Türkiye**).
 
@@ -232,10 +273,10 @@ Production-grade RAG system built during AI Engineering internship at Çilek Kid
 
 ## 🌱 Currently
 
-- 🔬 Pushing edge inference further — **TensorRT INT8** quantization, measuring the accuracy/FPS curve honestly instead of quoting the best number
-- 📚 Digging into **microservices design** and how retrieval systems should be decomposed
-- 🧩 Turning repeated RAG plumbing into a reusable library instead of copy-pasting it into the next project
-- 💬 Always up for talking about anomaly detection with almost no anomalies
+- 🛰️ Building my senior design project: a **UAV/C-UAS threat map** that fuses sensor detections, propagates risk on a grid and replans survivable routes
+- 🧪 Writing evaluations before features — gold sets, held-out splits and prompt-injection checks for every LLM app I ship
+- 🤖 Moving from fixed RAG pipelines to **tool-calling agents** that read documents and databases through typed tools
+- 🔬 Still pushing edge inference — **TensorRT INT8**, measuring the accuracy/FPS curve honestly instead of quoting the best number
 
 <br/>
 
