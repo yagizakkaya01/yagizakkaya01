@@ -198,24 +198,55 @@ Production RAG system built during my AI Engineering internship at Çilek Kids R
 </tr>
 </table>
 
-<details>
-<summary><b>🎮 More projects & research — click to expand</b></summary>
+## 🏆 Competitions
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+
+<img src="https://img.shields.io/badge/TEKNOFEST%202025-5th%20in%20T%C3%BCrkiye-FFB300?style=for-the-badge&logo=rocket&logoColor=white" />
+
+### 🚁 "CENGIZ" — Unmanned Coaxial Helicopter
+**Helicopter Design Competition · 75.3 pts**
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<img src="https://img.shields.io/badge/TEKNOFEST%202024-4th%20in%20T%C3%BCrkiye-FFB300?style=for-the-badge&logo=rocket&logoColor=white" />
+
+### 🚁 Modular Multipurpose Helicopter
+**Helicopter Design Competition · 78 pts**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+Unmanned coaxial helicopter for disaster-area connectivity and marine monitoring. I led the **rotor configuration analysis** and **vehicle pre-sizing**.
+
+`Aerospace` `UAV Design` `Systems Engineering`
+
+</td>
+<td width="50%" valign="top">
+
+One airframe, three variants (search & rescue, commercial, VIP), designed with a 6-person team around a modular architecture.
+
+`Aeronautics` `Modular Architecture`
+
+</td>
+</tr>
+</table>
 
 <br/>
+
+## 🧰 More Projects
 
 | Project | What it is | Stack |
 |---|---|---|
 | [**tattoo-stencil-maker**](https://github.com/yagizakkaya01/tattoo-stencil-maker) | Turns any photo into a printable tattoo stencil: live OpenCV tuning (blur, Canny, line thickness), stencil and colour modes, true-to-scale A4 PDF export at 300 DPI | `Python` `OpenCV` `Tkinter` |
-| **Collapse/Blast Match-3 Engine** | High-performance Unity tile-matching engine featuring recursive Flood-Fill/BFS cluster detection ($O(M \times N)$), deterministic Smart Shuffle deadlock resolution, physics-based grid reflow, and object pooling | `Unity` `C#` `Algorithms` |
-| **TEKNOFEST 2025 "CENGIZ"** | Unmanned coaxial helicopter designed for disaster-area connectivity and marine monitoring; led rotor configuration analysis and vehicle pre-sizing (**Ranked 5th in Türkiye**, 75.3 pts) | `Aerospace` `UAV Design` `Systems Engineering` |
-| **TEKNOFEST 2024 Multipurpose Helicopter** | Modular helicopter design (SAR, Commercial, VIP variants) with a 6-person team (**Ranked 4th in Türkiye**, 78 pts) | `Aeronautics` `Modular Architecture` |
+| **Collapse/Blast Match-3 Engine** | Unity tile-matching engine with recursive Flood-Fill/BFS cluster detection ($O(M \times N)$), deterministic Smart Shuffle deadlock resolution, physics-based grid reflow and object pooling | `Unity` `C#` `Algorithms` |
 | **Yavuzkopter** | A GTA V mod featuring a custom unmanned coaxial helicopter, modelled entirely through Blender Python scripting with modular components and game-optimized export | `Blender` `Python` `3D Modeling` |
-| [**circle-board-game**](https://github.com/yagizakkaya01/circle-board-game) | A 10×10 circular board game with traps and dice mechanics | `C` |
-| [**crag-dice-game**](https://github.com/yagizakkaya01/crag-dice-game) | Implementation of the Crag dice game with full scoring logic | `C` |
-| [**patient-management-system**](https://github.com/yagizakkaya01/patient-management-system) | Patient records with BMI classification and risk filtering | `C` |
-| [**internship-records-system**](https://github.com/yagizakkaya01/internship-records-system) | Record management and analysis over internship datasets | `C` |
-
-</details>
+| **Coursework in C** | [circle-board-game](https://github.com/yagizakkaya01/circle-board-game) · [crag-dice-game](https://github.com/yagizakkaya01/crag-dice-game) · [patient-management-system](https://github.com/yagizakkaya01/patient-management-system) · [internship-records-system](https://github.com/yagizakkaya01/internship-records-system) | `C` `Data Structures` |
 
 <br/>
 
