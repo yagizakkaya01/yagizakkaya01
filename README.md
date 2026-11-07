@@ -222,9 +222,9 @@ Production RAG system built during my AI Engineering internship at Çilek Kids R
 <tr>
 <td width="50%" valign="top">
 
-Unmanned coaxial helicopter for disaster-area connectivity and marine monitoring. I led the **rotor configuration analysis** and **vehicle pre-sizing**.
+Unmanned coaxial helicopter for disaster-area connectivity and marine monitoring. I led the **rotor configuration analysis** and **vehicle pre-sizing**, and built the vehicle's 3D model entirely through **Blender Python scripting** — modular components with a game-optimized export, shown as a playable GTA V mod (*Yavuzkopter*).
 
-`Aerospace` `UAV Design` `Systems Engineering`
+`Aerospace` `UAV Design` `Systems Engineering` `Blender` `Python`
 
 </td>
 <td width="50%" valign="top">
@@ -245,7 +245,6 @@ One airframe, three variants (search & rescue, commercial, VIP), designed with a
 |---|---|---|
 | [**tattoo-stencil-maker**](https://github.com/yagizakkaya01/tattoo-stencil-maker) | Turns any photo into a printable tattoo stencil: live OpenCV tuning (blur, Canny, line thickness), stencil and colour modes, true-to-scale A4 PDF export at 300 DPI | `Python` `OpenCV` `Tkinter` |
 | **Collapse/Blast Match-3 Engine** | Unity tile-matching engine with recursive Flood-Fill/BFS cluster detection ($O(M \times N)$), deterministic Smart Shuffle deadlock resolution, physics-based grid reflow and object pooling | `Unity` `C#` `Algorithms` |
-| **Yavuzkopter** | A GTA V mod featuring a custom unmanned coaxial helicopter, modelled entirely through Blender Python scripting with modular components and game-optimized export | `Blender` `Python` `3D Modeling` |
 | **Coursework in C** | [circle-board-game](https://github.com/yagizakkaya01/circle-board-game) · [crag-dice-game](https://github.com/yagizakkaya01/crag-dice-game) · [patient-management-system](https://github.com/yagizakkaya01/patient-management-system) · [internship-records-system](https://github.com/yagizakkaya01/internship-records-system) | `C` `Data Structures` |
 
 <br/>
