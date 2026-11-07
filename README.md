@@ -120,20 +120,23 @@ Event store, session reconciliation and Turkish natural-language querying for fi
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
-### 🛰️ [uav-cuas-datasets](https://github.com/yagizakkaya01/uav-cuas-datasets)
-**Senior design: UAV/C-UAS threat map & decision-support system**
+### 🛰️ [uav-cuas-datasets](https://github.com/yagizakkaya01/uav-cuas-datasets) · Senior Design (ESC 491/492)
+**UAV Threat Map & Decision Support System — İHA Tehdit Haritası ve Karar Destek Sistemi**
 
-Evidence-based catalog and 5-layer architecture for a tactical decision-support system that maps drone threats in real time and replans survivable paths (METU NCC, ESC 491/492, CNG + EEE).
+An interdisciplinary METU NCC capstone (4 CNG + 1 EEE students, NATO/C4ISR theme): a system that detects a drone, maps the threat on real terrain, and tells the operator what to do — with every recommendation traceable to a source.
 
-- **Evidence-based grounding:** **35+ real, independently verified data sources** (Copernicus DEM, OpenSky Network, DroneRF, ACLED, DoD/NATO doctrine), each with its license and access status
-- **5-layer C2 engine:** geospatial & sensor ingestion, doctrine/TTP knowledge base for RAG-based threat reasoning, grid/graph algorithms (A\*, terrain masking), radar/RF sensor fusion, and MIL-STD-2525 symbology
-- **Detect → propagate risk → replan:** multi-threat cost surfaces and dynamic route replanning under active drone threats
+- **My part — threat knowledge base (Layer 2):** RAG over unclassified counter-UAS doctrine (ATP 3-01.81, DoD C-UAS Strategy, RAND, RUSI, NATO) with **mandatory source citation** on every answer; I also own the test scenarios and evaluation metrics and edit the project report
+- **5-layer architecture:** camera + Wi-Fi/RF sensing → doctrine knowledge base → grid risk propagation, line-of-sight and A\*/Dijkstra safe routes on PostGIS terrain → sensor fusion and threat score → web C2 map with MIL-STD-2525 symbols
+- **Physical demo, not just simulation:** a fixed 4 MP PoE IP camera and an RTX 4070 laptop detect a mock drone carrying an ESP32 Wi-Fi transmitter (confirmed by its MAC from a second ESP32) and show it live on the map; hardware list (₺10,088) accepted by the supervisors
+- **Evidence-based grounding:** catalog of **35+ verified data sources** (Copernicus DEM, OpenSky, DroneRF, DUT Anti-UAV, ACLED, FAA sightings), each with license and access status; four pilot regions with real drone incidents (Eindhoven, Gatwick, Aalborg, Crete) compared with data-access tests
 
-`Defense & C-UAS` `Path Planning` `Sensor Fusion` `MIL-STD-2525` `RAG`
+`RAG` `LLM` `PostGIS` `A* / Dijkstra` `Sensor Fusion` `ESP32` `IP Camera` `MIL-STD-2525` `C-UAS`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 👁️ [inventory-verification](https://github.com/yagizakkaya01/inventory-verification)
@@ -146,6 +149,20 @@ A workspace inventory-verification system for defense-industry use cases such as
 - **Edge deployment:** **NVIDIA Jetson** with **TensorRT INT8** quantization for real-time inference on a **Luxonis OAK-D** camera
 
 `Python` `YOLO11` `OpenCV` `TensorRT` `NVIDIA Jetson` `Luxonis OAK-D`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔬 flawscope
+**Two-stage defect detection for aircraft-engine part metallography** *(private repo)*
+
+Classifies optical-microscope cross-sections of machined aircraft-engine parts across **12 defect types** and returns a per-part verdict: *accept / rework / review / reject*. Most defect types have only a handful of examples, so it is built as a hybrid pipeline instead of one classifier.
+
+- **Stage 1 — anomaly detection:** PatchCore / PaDiM trained on healthy images only; the heatmap is thresholded into candidate regions (connected components + NMS)
+- **Stage 2 — two branches per region:** a CNN for types with enough samples and a prototype bank + WinCLIP text prompts for the rare ones, fused with Reciprocal Rank Fusion and Platt-calibrated to one probability scale
+- **Safety-first decisions:** asymmetric per-type thresholds — a weak signal on an auto-reject type pulls in a human, while *accept* has to be earned; test-time augmentation disagreement routes to review
+
+`Python` `PyTorch` `anomalib` `PatchCore` `open-clip` `OpenCV`
 
 </td>
 </tr>
@@ -252,7 +269,7 @@ Production RAG system built during my AI Engineering internship at Çilek Kids R
 `2021 – Present`
 - **Relevant Coursework:** Algorithm Analysis, Database Management and File Structures, C Programming, Data Structures, Python Programming, Linux Basics, Logic Design, Discrete Computational Structures.
 - **Projects & Competitions:**
-  - *Senior Design (ESC 491/492, CNG + EEE):* UAV/C-UAS threat map and decision-support system — see [uav-cuas-datasets](https://github.com/yagizakkaya01/uav-cuas-datasets).
+  - *Senior Design (ESC 491/492, CNG + EEE):* UAV threat map and decision-support system with a physical demo; I own the RAG-based doctrine knowledge base, evaluation and the report — see [uav-cuas-datasets](https://github.com/yagizakkaya01/uav-cuas-datasets).
   - *TEKNOFEST 2025 Helicopter Design Competition:* Unmanned coaxial helicopter "CENGIZ" (Graded **75.3**, Ranked **5th place in Türkiye**).
   - *TEKNOFEST 2024 Helicopter Design Competition:* Modular multipurpose helicopter (Graded **78**, Ranked **4th place in Türkiye**).
 
@@ -273,7 +290,7 @@ Production RAG system built during my AI Engineering internship at Çilek Kids R
 
 ## 🌱 Currently
 
-- 🛰️ Building my senior design project: a **UAV/C-UAS threat map** that fuses sensor detections, propagates risk on a grid and replans survivable routes
+- 🛰️ Senior design: building the **doctrine knowledge base (RAG with mandatory citations)** for our UAV threat map, heading to a live single-camera field demo with a mock drone
 - 🧪 Writing evaluations before features — gold sets, held-out splits and prompt-injection checks for every LLM app I ship
 - 🤖 Moving from fixed RAG pipelines to **tool-calling agents** that read documents and databases through typed tools
 - 🔬 Still pushing edge inference — **TensorRT INT8**, measuring the accuracy/FPS curve honestly instead of quoting the best number
